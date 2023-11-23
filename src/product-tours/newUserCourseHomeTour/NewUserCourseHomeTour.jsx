@@ -22,26 +22,26 @@ const datesCheckpoint = {
 const outlineCheckpoint = {
   body: <FormattedMessage
     id="tours.outlineCheckpoint.body"
-    defaultMessage="You can explore sections of the course using the outline below."
+    defaultMessage="Bạn có thể khám phá các phần của môn học bằng cách sử dụng đề cương bên dưới."
   />,
   placement: 'top',
   target: '#courseHome-outline',
   title: <FormattedMessage
     id="tours.outlineCheckpoint.title"
-    defaultMessage="Take the course!"
+    defaultMessage="Tham gia môn học!"
   />,
 };
 
 const tabNavigationCheckpoint = {
   body: <FormattedMessage
     id="tours.tabNavigationCheckpoint.body"
-    defaultMessage="These tabs can be used to access other course materials, such as your progress, syllabus, etc."
+    defaultMessage="Các tab này có thể được sử dụng để truy cập các tài liệu môn học khác, chẳng hạn như tiến độ, giáo trình, v.v."
   />,
   placement: 'bottom',
   target: '#courseTabsNavigation',
   title: <FormattedMessage
     id="tours.tabNavigationCheckpoint.title"
-    defaultMessage="Additional course resources"
+    defaultMessage="Tài nguyên môn học bổ sung"
   />,
 };
 

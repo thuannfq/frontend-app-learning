@@ -3,12 +3,12 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   donutLabel: {
     id: 'progress.completion.donut.label',
-    defaultMessage: 'completed',
+    defaultMessage: 'đã hoàn thành',
     description: 'Label text for progress donut chart',
   },
   completionBody: {
     id: 'progress.completion.body',
-    defaultMessage: 'This represents how much of the course content you have completed. Note that some content may not yet be released.',
+    defaultMessage: 'Phần này thể hiện lượng nội dung môn học bạn đã hoàn thành. Lưu ý rằng một số nội dung có thể chưa được phát hành.',
     description: 'It explains the meaning of progress donut chart',
   },
   completeContentTooltip: {
@@ -18,7 +18,7 @@ const messages = defineMessages({
   },
   courseCompletion: {
     id: 'progress.completion.header',
-    defaultMessage: 'Course completion',
+    defaultMessage: 'Mức hoàn thành',
     description: 'Header text for (completion donut chart) section of the progress tab',
   },
   incompleteContentTooltip: {

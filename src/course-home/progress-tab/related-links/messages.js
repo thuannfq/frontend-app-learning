@@ -13,17 +13,17 @@ const messages = defineMessages({
   },
   outlineCardDescription: {
     id: 'progress.relatedLinks.outlineCard.description',
-    defaultMessage: 'A birds-eye view of your course content.',
+    defaultMessage: 'Một cái nhìn toàn cảnh về nội dung môn học của bạn.',
     description: 'It explain the content of the course outline tab',
   },
   outlineCardLink: {
     id: 'progress.relatedLinks.outlineCard.link',
-    defaultMessage: 'Course Outline',
+    defaultMessage: 'Đề cương môn học',
     description: 'Anchor text for link that redirects to course outline tab',
   },
   relatedLinks: {
     id: 'progress.relatedLinks',
-    defaultMessage: 'Related links',
+    defaultMessage: 'Liên kết liên quan',
     description: 'Headline for (related links) section in progress tab',
   },
 });

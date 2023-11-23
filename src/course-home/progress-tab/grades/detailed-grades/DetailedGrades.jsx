@@ -71,7 +71,7 @@ const DetailedGrades = ({ intl }) => {
         <p className="x-small m-0">
           <FormattedMessage
             id="progress.ungradedAlert"
-            defaultMessage="For progress on ungraded aspects of the course, view your {outlineLink}."
+            defaultMessage="Để biết tiến trình về các khía cạnh chưa được xếp loại của môn học, hãy xem {outlineLink}."
             description="Text that precede link that redirect to course outline page"
             values={{ outlineLink }}
           />

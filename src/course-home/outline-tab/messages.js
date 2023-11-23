@@ -23,7 +23,7 @@ const messages = defineMessages({
   },
   collapseAll: {
     id: 'learning.outline.collapseAll',
-    defaultMessage: 'Collapse all',
+    defaultMessage: 'Đóng đề cương',
     description: 'Label for button to close all of the collapsible sections',
   },
   completedAssignment: {
@@ -48,7 +48,7 @@ const messages = defineMessages({
   },
   expandAll: {
     id: 'learning.outline.expandAll',
-    defaultMessage: 'Expand all',
+    defaultMessage: 'Mở rộng đề cương',
     description: 'Label for button to open all of the collapsible sections',
   },
   goal: {
@@ -67,7 +67,7 @@ const messages = defineMessages({
   },
   handouts: {
     id: 'learning.outline.handouts',
-    defaultMessage: 'Course Handouts',
+    defaultMessage: 'Tài Liệu Môn Học',
     description: 'Header for (Course Handouts) section in course outline',
   },
   incompleteAssignment: {
@@ -152,16 +152,16 @@ const messages = defineMessages({
   },
   start: {
     id: 'learning.outline.start',
-    defaultMessage: 'Start course',
+    defaultMessage: 'Bắt đầu',
     description: 'The text for button which starts the course',
   },
   startBlurb: {
     id: 'learning.outline.startBlurb',
-    defaultMessage: 'Begin your course today',
+    defaultMessage: 'Bắt đầu môn học hôm nay',
   },
   tools: {
     id: 'learning.outline.tools',
-    defaultMessage: 'Course Tools',
+    defaultMessage: 'Công Cụ',
     description: 'Headline for the (course tools) section in course outline. course tool might include links to course bookmarks, financial assistance...etc',
   },
   upgradeButton: {
