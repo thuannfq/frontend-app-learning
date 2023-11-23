@@ -7,7 +7,7 @@ const abandonTour = ({ enabled, onEnd }) => ({
   checkpoints: [{
     body: <FormattedMessage
       id="tours.abandonTour.launchTourCheckpoint.body"
-      defaultMessage="Feeling lost? Launch the tour any time for some quick tips to get the most out of the experience."
+      defaultMessage="Cảm thấy lạc lõng? Bắt đầu chuyến tham quan bất kỳ lúc nào để biết một số mẹo nhanh nhằm tận dụng tối đa trải nghiệm."
     />,
     placement: 'left',
     target: '#courseHome-launchTourLink',

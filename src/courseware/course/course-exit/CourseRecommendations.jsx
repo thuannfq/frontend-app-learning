@@ -28,7 +28,7 @@ const messages = defineMessages({
   recommendationsCourseFooter: {
     id: 'courseCelebration.recommendations.label', // not very descriptive, but is historical
     description: 'Label on a discovery-card that lets a user know that it is a course card',
-    defaultMessage: 'Course',
+    defaultMessage: 'Môn Học',
   },
   listJoin: {
     id: 'courseCelebration.recommendations.formatting.list_join',

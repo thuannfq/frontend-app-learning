@@ -3,7 +3,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   progressHeader: {
     id: 'progress.header',
-    defaultMessage: 'Your progress',
+    defaultMessage: 'Tiến độ học tập của bạn',
     description: 'Headline or title for the progress tab',
   },
   progressHeaderForTargetUser: {

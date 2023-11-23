@@ -3,7 +3,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   assignmentType: {
     id: 'progress.assignmentType',
-    defaultMessage: 'Assignment type',
+    defaultMessage: 'Loại bài tập',
     description: 'Header for column that indicate type of the assignment in grade summary table',
   },
   backToContent: {
@@ -13,12 +13,12 @@ const messages = defineMessages({
   },
   courseGradeBody: {
     id: 'progress.courseGrade.body',
-    defaultMessage: 'This represents your weighted grade against the grade needed to pass this course.',
+    defaultMessage: 'Điều này thể hiện điểm có trọng số của bạn so với điểm cần thiết để vượt qua môn học này.',
     description: 'This text is shown to explain the meaning of the (grade bar) chart',
   },
   courseGradeBarAltText: {
     id: 'progress.courseGrade.gradeBar.altText',
-    defaultMessage: 'Your current grade is {currentGrade}%. A weighted grade of {passingGrade}% is required to pass in this course.',
+    defaultMessage: 'Điểm hiện tại của bạn là {currentGrade}%. Cần có điểm có trọng số là {passingGrade}% để vượt qua khóa học này.',
     description: 'Alt text for the grade chart bar',
   },
   courseGradeFooterGenericPassing: {
@@ -28,7 +28,7 @@ const messages = defineMessages({
   },
   courseGradeFooterNonPassing: {
     id: 'progress.courseGrade.footer.nonPassing',
-    defaultMessage: 'A weighted grade of {passingGrade}% is required to pass in this course',
+    defaultMessage: 'Cần có điểm có trọng số là {passingGrade}% để vượt qua khóa học này',
     description: 'This shown when learner weighted grade is less than course passing grade',
   },
   courseGradeFooterPassingWithGrade: {
@@ -78,17 +78,17 @@ const messages = defineMessages({
   },
   courseOutline: {
     id: 'progress.courseOutline',
-    defaultMessage: 'Course Outline',
+    defaultMessage: 'Đề cương môn học',
     description: 'Anchor text for link that redirects to (course outline) tab',
   },
   currentGradeLabel: {
     id: 'progress.courseGrade.label.currentGrade',
-    defaultMessage: 'Your current grade',
+    defaultMessage: 'Điểm hiện tại của bạn',
     description: 'Text label current leaner grade on (grade bar) chart',
   },
   detailedGrades: {
     id: 'progress.detailedGrades',
-    defaultMessage: 'Detailed grades',
+    defaultMessage: 'Điểm chi tiết',
     description: 'Headline for the (detailed grade) section in the progress tab',
   },
   detailedGradesEmpty: {
@@ -103,12 +103,12 @@ const messages = defineMessages({
   },
   grade: {
     id: 'progress.gradeSummary.grade',
-    defaultMessage: 'Grade',
+    defaultMessage: 'Điểm',
     description: 'Headline for (grade column) in grade summary table',
   },
   grades: {
     id: 'progress.courseGrade.grades',
-    defaultMessage: 'Grades',
+    defaultMessage: 'Điểm',
     description: 'Headline for grades section in progress tab',
   },
   gradesAndCredit: {
@@ -123,7 +123,7 @@ const messages = defineMessages({
   },
   gradeSummary: {
     id: 'progress.gradeSummary',
-    defaultMessage: 'Grade summary',
+    defaultMessage: 'Tóm tắt điểm',
     description: 'Headline for the (grade summary) section in (grades) section in progress tab',
   },
   gradeSummaryLimitedAccessExplanation: {
@@ -155,7 +155,7 @@ const messages = defineMessages({
   },
   passingGradeLabel: {
     id: 'progress.courseGrade.label.passingGrade',
-    defaultMessage: 'Passing grade',
+    defaultMessage: 'Điểm đạt',
     description: 'Label for mark on the (grade bar) chart which indicate the poisition of passing grade on the bar',
   },
   problemScoreLabel: {
@@ -175,22 +175,22 @@ const messages = defineMessages({
   },
   score: {
     id: 'progress.score',
-    defaultMessage: 'Score',
+    defaultMessage: 'Điểm',
     description: 'It indicate how many points the learner have socred scored in particular assignment, or exam',
   },
   weight: {
     id: 'progress.weight',
-    defaultMessage: 'Weight',
+    defaultMessage: 'Trọng số',
     description: 'It indicate the weight of particular assignment on overall course grade, it is demeterined by course author',
   },
   weightedGrade: {
     id: 'progress.weightedGrade',
-    defaultMessage: 'Weighted grade',
+    defaultMessage: 'Điểm theo trọng số',
     description: 'Weighed grade is calculated by (weight %) * (grade score) ',
   },
   weightedGradeSummary: {
     id: 'progress.weightedGradeSummary',
-    defaultMessage: 'Your current weighted grade summary',
+    defaultMessage: 'Tóm tắt điểm có trọng số hiện tại của bạn',
     description: 'It the text precede the sum of weighted grades of all the assignment',
   },
 

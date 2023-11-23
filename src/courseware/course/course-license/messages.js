@@ -3,7 +3,7 @@ import { defineMessages } from '@edx/frontend-platform/i18n';
 const messages = defineMessages({
   'learn.course.license.allRightsReserved.text': {
     id: 'learn.course.license.allRightsReserved.text',
-    defaultMessage: 'All Rights Reserved',
+    defaultMessage: 'Mọi quyền được bảo lưu',
     description: 'License text shown when using All Rights Reserved license type.',
   },
   'learn.course.license.creativeCommons.terms.preamble': {

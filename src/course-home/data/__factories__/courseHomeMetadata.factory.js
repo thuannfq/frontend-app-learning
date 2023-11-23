@@ -94,7 +94,7 @@ Factory.define('courseHomeMetadata')
     Factory.build(
       'tab',
       {
-        title: 'Instructor',
+        title: 'Giảng Viên',
         priority: 4,
         slug: 'instructor',
         type: 'instructor',
@@ -108,7 +108,7 @@ Factory.define('courseHomeMetadata')
     Factory.build(
       'tab',
       {
-        title: 'Dates',
+        title: 'Lịch',
         priority: 5,
         slug: 'dates',
         type: 'dates',

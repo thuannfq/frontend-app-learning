@@ -33,7 +33,7 @@ const LogistrationAlert = ({ intl }) => {
       <FormattedMessage
         id="learning.logistration.alert"
         description="Prompts the user to sign in or register to see course content."
-        defaultMessage="To see course content, {signIn} or {register}."
+        defaultMessage="Để xem nội dung khóa học, hãy {signIn} hoặc {register}."
         values={{
           signIn,
           register,

@@ -43,7 +43,7 @@ const Tabs = ({ children, className, ...attrs }) => {
               <FormattedMessage
                 id="learn.course.tabs.navigation.overflow.menu"
                 description="The title of the overflow menu for course tabs"
-                defaultMessage="More..."
+                defaultMessage="Thêm..."
               />
             </Dropdown.Toggle>
             <Dropdown.Menu className="dropdown-menu-right">{overflowChildren}</Dropdown.Menu>

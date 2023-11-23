@@ -43,7 +43,7 @@ const CourseStartAlert = ({ payload }) => {
       <Alert variant="info" icon={Info}>
         <FormattedMessage
           id="learning.outline.alert.start.short"
-          defaultMessage="Course starts {timeRemaining} at {courseStartTime}."
+          defaultMessage="Khóa học bắt đầu {timeRemaining} lúc {courseStartTime}."
           description="Used when the time remaining is less than a day away."
           values={{
             courseStartTime: (
@@ -69,7 +69,7 @@ const CourseStartAlert = ({ payload }) => {
       <strong>
         <FormattedMessage
           id="learning.outline.alert.end.long"
-          defaultMessage="Course starts {timeRemaining} on {courseStartDate}."
+          defaultMessage="Khóa học bắt đầu {timeRemaining} ngày {courseStartDate}."
           description="Used when the time remaining is more than a day away."
           values={{
             courseStartDate: (
